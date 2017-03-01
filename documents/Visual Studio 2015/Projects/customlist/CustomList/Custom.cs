@@ -15,12 +15,22 @@ namespace CustomList
             customlist = new T[0];
         }
 
-        public void AddToList(T value)
-        {
+        //public T this[int index]
+        //{
+        //    return index;
+        //}
 
+        //public int GetIndex(int index)
+        //{
+        //    return index;
+        //}
+
+    public void AddToList(T value)
+        {
+            //customlist + value;
         }
 
-        public void RemoveFromList()
+        public void RemoveFromList(T value)
         {
 
         }
